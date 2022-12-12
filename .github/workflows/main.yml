@@ -1,0 +1,12 @@
+on : 
+  push: 
+     branches: 
+        - master
+        
+jobs:  
+   build:
+     runs-on: Ubuntu-latest
+     steps: 
+        - name: "jdsgaksdv"
+          run: echo "hello" 
+        
