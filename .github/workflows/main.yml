@@ -2,7 +2,7 @@
 
 on:
   push:
-   /*what is the branch*/
+   
     branches:
       - master
 
