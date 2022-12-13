@@ -18,6 +18,6 @@ jobs:
       - name: " building docker "
         run: docker build -t ${{ secrets.DOCKER_USERNAME2 }}/java2 .
       - name: " pushing to docker hub "
-        run: docker push ${{ secrets.DOCKER_USERNAME2 }}/ahmedelshafey123/java2
+        run: docker push ${{ secrets.DOCKER_USERNAME2 }}/java2
 
 
