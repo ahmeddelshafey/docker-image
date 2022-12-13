@@ -25,7 +25,7 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-      - name: "testing github actions"
+      - name: " testing github actions"
         run: pwd
 
       - name: "testing printing"
