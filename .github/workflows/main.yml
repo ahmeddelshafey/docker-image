@@ -1,12 +1,32 @@
-on : 
-  push: 
-     branches: 
-        - master
-        
-jobs:  
-   build:
-     runs-on: Ubuntu-latest
-     steps: 
-        - name: "jdsgaksdv"
-          run: echo "hello" 
-        
+name: "ahmed elshafey"
+
+favoritesongs:
+  - 'songe #1'
+  - 'songe #2'
+  - 'songe #3'
+
+favoritesongs: ['songe #1', 'songe #1']
+
+characteristic:
+  age:25
+  height:170
+  skincolor:''
+
+
+on:
+  push:
+   /*what is the branch*/
+    branches:
+      - master
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: "testing github actions"
+        run: pwd
+
+      - name: "testing printing"
+        run: echo ahmed
